@@ -46,4 +46,4 @@ ZohoService::init_models_recursion(5, ([
   ['Ticket', %w[Comment Thread Attachment TimeEntry], { queries: %w[from limit departmentId sortBy include] }],
   ['Contact', %w[Ticket], { queries: %w[from limit sortBy include] }],
   ['Task', nil, { queries: %w[from limit departmentId sortBy include] }]
-] + %w[Organization Account Agent Department]), ZohoService::ApiConnector)
+] + %w[Organization Account Agent Department]), ZohoService::ApiConnector )
