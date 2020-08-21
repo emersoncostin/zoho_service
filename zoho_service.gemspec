@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<httparty>.freeze, ["0.16"])
+      s.add_runtime_dependency(%q<httparty>.freeze, ["> 0.16"])
       s.add_runtime_dependency(%q<activesupport>.freeze, ["> 4.2.7.1"])
       s.add_development_dependency(%q<bundler>.freeze, ["~> 1.5"])
       s.add_development_dependency(%q<rake>.freeze, ["< 11.0"])
